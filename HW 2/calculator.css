@@ -1,0 +1,80 @@
+div
+{
+  display: inline-block;
+}
+
+.background
+{
+  background: linear-gradient(#d6d6d6, #61644f);
+  width:265px;
+  height:270px;
+  padding:10px;
+  box-shadow: 7px 7px 7px #888888;
+}
+
+.display
+{
+  margin-top:5px;
+}
+
+.text
+{
+  width:260px;
+  height:50px;
+  background-color:#eef8c4;
+  border-radius:10px;
+  border-style:inset;
+  margin-bottom:10px;
+  font-size:120%;
+  text-align:right;
+  text-indent:20px;
+/*   direction:rtl; */
+  overflow : hidden;
+}
+
+button
+{
+  width: 60px;
+  height: 30px;
+  border-radius: 10px;
+  font-size:105%;
+  border-sytle:onset;
+  background-color:#d6d6d6;
+  font-family: sans-serif;
+  margin-left:2px;
+  margin-bottom:2px;
+  box-shadow: 4px 4px 4px #888888;
+}
+
+button:hover {
+    background: linear-gradient(#61644f, #a9a9a9);
+    color: white;
+}
+
+button:active {
+  background: linear-gradient(#FDFEFE, #154360);
+}
+
+button.equal_button
+{
+  height: 60px;
+  float:right;
+  margin-left:8px;
+  margin-top:-30px;
+  padding-top:30px;
+}
+
+button.zero_button
+{
+  width: 127px;
+}
+
+.val
+{
+  margin-right:10px;
+}
+
+.op
+{
+  margin-right:100px;
+}

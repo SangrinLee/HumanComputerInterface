@@ -1,0 +1,125 @@
+/**div
+{
+  display: inline-block;
+}**/
+
+.background
+{
+  /*background: linear-gradient(#d6d6d6, #61644f);*/
+  width:1000px;
+  height:670px;
+  
+  box-shadow: 7px 7px 7px #888888;
+}
+
+.display1
+{
+/*   margin-top:-10px;
+  margin-left:-10px; */
+  width:1002px;
+  height:150px;
+  background:green;
+}
+
+.display2
+{
+
+  width:200px;
+  height:150px;
+  background:#C7EDC7;
+}
+
+.display3
+{
+  margin-left:-5px;
+  width:50px;
+  height:150px;
+  background:#C7EDC7;
+}
+.display4
+{
+  margin-left:-5px;
+  margin-top:-20px; 
+  
+  width:700px;
+  height:150px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 150px;       /* the same as your div height */
+  background:#C7EDC7;
+  
+}
+
+.display5
+{
+  margin-top:0px;
+  padding-top:60px;
+  width:200px;
+  height:470px;
+  background:#C7EDC7;
+}
+
+button
+{
+  margin-left:14px;
+  /*margin-top:20px;*/
+  width: 170px;
+  height: 60px;
+  /*border-radius: 10px;*/
+  font-size:120%;
+  /*border-sytle:onset;*/
+  background-color:#C7EDC7;
+  /*font-family: sans-serif;*/
+  
+  /*box-shadow: 4px 4px 4px #888888;*/
+}
+
+.button2
+{
+  /*margin-top:20px;*/
+  padding-top:108px;
+  width:115px;
+  height:15px;
+}
+  
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: C7EDC7;
+}
+
+li a {
+    margin-bottom:10px;
+    display: block;
+    color: #000;
+    padding: 8px 8px;
+    height:60px;
+    text-align: center;
+    font-size:20px;
+    text-decoration: none;
+    border-style: inset;
+}
+
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+#TitleBar{
+  width:8002px;
+  height:150px;
+  text-align: center;
+  vertical-align: middle;
+   line-height: 150px;  */  
+  background:red;
+}
+
+#HomeIcon{
+  width:200px;
+  height:150px;
+  margin-left:10px;
+  /**background:#C7EDC7;**/
+
+}
